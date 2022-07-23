@@ -1,6 +1,11 @@
-import React from "react";
+import React from 'react';
+
 const Results = () => {
-  return <div></div>;
-};
+    return (
+        <div>
+            Hello
+        </div>
+    );
+}
 
 export default Results;
