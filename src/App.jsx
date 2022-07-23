@@ -1,14 +1,19 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Nav from "./components/nav";
-import Header from "./components/header";
-import Boxes from "./components/4 boxes";
+import HomePage from "./pages/HomePage";
+import Search from "./pages/Search";
+
 function App() {
   return (
-    <div className="nav-header">
-      <Nav />
-      <Header />
-      <Boxes />
+    <div className="app">
+      {
+        //Home
+      }
+      <HomePage />
+
+      {
+        //Search (the results)
+      }
+      <Search />
     </div>
   );
 }
