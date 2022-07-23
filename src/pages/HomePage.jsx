@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./HomePage.css";
 import AppsIcon from "@mui/icons-material/Apps";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import Search from "../components/Search";
 const HomePage = () => {
   return (
     <div className="home">
@@ -25,7 +26,7 @@ const HomePage = () => {
           alt=""
         />
         <figure className="home__searchBarContainer">
-            <input type="search" />
+            <Search />
         </figure>
       </div>
     </div>

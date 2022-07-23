@@ -6,8 +6,9 @@
 .home__header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 4px 20px;
   align-items: center;
+  height: 60px;
 }
 .home__header a {
   margin-right: 20px;
@@ -23,12 +24,19 @@
   align-items: center;
   min-width: 13vw;
   justify-content: space-between;
+  height: 100%;
 }
 .headerIcon {
   margin-right: 20px;
 }
 .avatarIcon {
-  transform: scale(1.4);
+  min-height: 100%;
+  min-width: 1.5em;
+  flex: 1;
+  margin: 0;
+}
+.MuiSvgIcon-root {
+  color: gray;
 }
 .home__googleImg {
   height: 100px;
@@ -37,7 +45,6 @@
 .home__body {
   flex: 1;
   display: flex;
-  margin-top: 10%;
+  margin-top: 20%;
   flex-direction: column;
-  align-items: center;
 }
