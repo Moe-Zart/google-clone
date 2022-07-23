@@ -1,0 +1,43 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+.home__header a {
+  margin-right: 20px;
+  text-decoration: inherit;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+}
+.home__header a:hover {
+  text-decoration: underline;
+}
+.home__headerRight {
+  display: flex;
+  align-items: center;
+  min-width: 13vw;
+  justify-content: space-between;
+}
+.headerIcon {
+  margin-right: 20px;
+}
+.avatarIcon {
+  transform: scale(1.4);
+}
+.home__googleImg {
+  height: 100px;
+  object-fit: contain; /* contain keeps the aspect ratio, so that it does not stretch*/
+}
+.home__body {
+  flex: 1;
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+  align-items: center;
+}
