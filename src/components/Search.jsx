@@ -7,7 +7,7 @@ const Search = () => {
         <div>
             <div className="search__input">
                 <SearchIcon className="search__inputSearchIcon" />
-                <input type="search__searchbar" />
+                <input type="search" className="search__searchBar" />
                 <MicIcon className='search__inputMicIcon'/>
                 
             </div>

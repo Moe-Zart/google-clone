@@ -12,4 +12,10 @@
 }
 .search__searchBar{
     flex: 1;
+    padding: 10px 20px;
+    font-size: medium;
+    border: none;
+}
+.search__searchBar:focus{
+    outline: 0;
 }
