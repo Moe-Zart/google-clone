@@ -4,7 +4,13 @@ import SearchIcon from "@mui/icons-material/Search";
 import MicIcon from "@mui/icons-material/Mic";
 import { Button } from "@mui/material";
 import { useHistory } from "react-router-dom";
+import { useStateValue } from "../StateProvider";
+import { actionTypes } from "../reducer";
+
 const Search = ({ hideButtons = false }) => {
+  const [{}, dispatch] = useStateValue();
+  //dispatch is like a gun that shoots actions into the data layer so that we can change it
+
   const [input, setInput] =
     useState(""); /* this is how you write variables in react */
   const history = useHistory(); // stores browser history
@@ -12,6 +18,11 @@ const Search = ({ hideButtons = false }) => {
   const search = (e) => {
     e.preventDefault(); /* prevents refresh*/
     console.log(input);
+
+    dispatch({
+      type: actionTypes.SET_SEARCH_TERM,
+      term: input, //here, we put the search term into the data layer, so that we can pull it back when we go to the results page
+    });
     history.push("/results");
   };
   return (
