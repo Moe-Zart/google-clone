@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../pages/Search.css";
+import "./Search.css";
 import SearchIcon from "@mui/icons-material/Search";
 import MicIcon from "@mui/icons-material/Mic";
 import { Button } from "@mui/material";
@@ -23,7 +23,7 @@ const Search = ({ hideButtons = false }) => {
       type: actionTypes.SET_SEARCH_TERM,
       term: input, //here, we put the search term into the data layer, so that we can pull it back when we go to the results page
     });
-    history.push("/results");
+    history.push("/search");
   };
   return (
     <form className="search">
