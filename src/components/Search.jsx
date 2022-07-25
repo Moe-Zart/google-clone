@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom";
 import { useStateValue } from "../StateProvider";
 import { actionTypes } from "../reducer";
 
-const Search = ({ hideButtons = false }) => {
+const Search = ({ hideButtons = false, term }) => {
   const [{}, dispatch] = useStateValue();
   //dispatch is like a gun that shoots actions into the data layer so that we can change it
 
@@ -33,6 +33,7 @@ const Search = ({ hideButtons = false }) => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           className="search__searchBar"
+          placeholder={term}
         />
         {/* const[input] stores whatever you type. setInput stores the input by giving it the target.value
          */}

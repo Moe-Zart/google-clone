@@ -14,8 +14,7 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import "./SearchPage.css";
 function SearchPage() {
   const [{ term }, dispatch] = useStateValue();
-  //const { data } = UseGoogleSearch(term);
-  const data = response;
+  const { data } = UseGoogleSearch(term);
   console.log(data);
   return (
     <div className="searchPage">
@@ -28,7 +27,7 @@ function SearchPage() {
           />
         </Link>
         <div className="searchPage__headerBody">
-          <Search hideButtons />
+          <Search hideButtons term={term} />
           <div className="searchPage__options">
             <div className="searchPage__optionsLeft">
               <div className="searchPage__option">

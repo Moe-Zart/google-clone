@@ -11,7 +11,7 @@
   background-color: white;
   z-index: 3;
   align-self: start;
-  padding: 30px;
+  padding: 30px 30px 10px 30px;
   border-bottom: 1px solid lightgray;
   width: 100%;
 }
@@ -53,7 +53,7 @@
     margin-right: 16px;
 }
 .searchPage__result{
-    margin: 40px 0;
+    margin: 16px 0;
 }
 .searchPage__resultsCount{
     color: #757677;
@@ -61,8 +61,8 @@
 }
 .searchPage__results{
     max-width: 650px;
-    margin-top: 20px;
-    margin-left: 190px;
+    margin-top: 10px;
+    margin-left: 180px;
     margin-bottom: 100px;
 }
 .title{
@@ -70,14 +70,22 @@
     font-weight: 100;
     font-size: 20px;
     color: rgb(16, 16, 179);
-    padding: 40px 0 0 0;
+    padding: 5px 0 0 0;
+    margin-bottom: 2px;
 }
 .title:hover{
     text-decoration: underline;
 }
-.link{
+.link, .snippet{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     padding: 1px 0;
+    margin: 0;
+}
+.snippet{
+    color: rgb(76, 75, 75);
+}
+input::placeholder{
+    color: black;
 }
