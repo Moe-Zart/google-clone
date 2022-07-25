@@ -1,11 +1,12 @@
 .searchPage__logo{
     object-fit: contain;
-    height: 50px;
-    margin-right: 50px;
+    height: 30px;
+    margin-right: 40px;
 
 }
 .searchPage__header{
     display: flex;
+    align-items: center;
     position: sticky;
     top: 0;
     background-color: white;
@@ -13,10 +14,14 @@
     align-self: start;
     padding: 30px;
     border-bottom: 1px solid lightgray;
+    width: 100%;
 }
 .searchPage__headerBody > .search > .search__input{
     margin-top: 0;
-    width: unset;
+    width: 700px;
     max-width: unset;
     margin: unset;
+}
+.searchPage__headerBody  > .search > .search__input > .search__inputSearchIcon{
+    
 }
