@@ -1,27 +1,83 @@
-.searchPage__logo{
-    object-fit: contain;
-    height: 30px;
-    margin-right: 40px;
+.searchPage__logo {
+  object-fit: contain;
+  height: 32px;
+  margin-right: 40px;
+}
+.searchPage__header {
+  display: flex;
+  align-items: start;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 3;
+  align-self: start;
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+.searchPage__headerBody > .search > .search__input {
+  margin-top: 0;
+  width: 700px;
+  max-width: unset;
+  margin: unset;
+}
+.searchPage__headerBody > .search > .search__input > .search__inputSearchIcon {
+  order: 1;
+  color: rgb(21, 125, 215);
+}
+.searchPage__options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 20px 0 20px;
+  font-size: 14px;
+}
+.searchPage__optionsLeft,
+.searchPage__optionsRight,
+.searchPage__option a {
+  text-decoration: none;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
 
+.searchPage__optionsLeft,
+.searchPage__optionsRight {
+  display: flex;
 }
-.searchPage__header{
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background-color: white;
-    z-index: 3;
-    align-self: start;
-    padding: 30px;
-    border-bottom: 1px solid lightgray;
-    width: 100%;
+.searchPage__icon{
+    max-width: 0.8em;
+    max-height: 0.8em;
 }
-.searchPage__headerBody > .search > .search__input{
-    margin-top: 0;
-    width: 700px;
-    max-width: unset;
-    margin: unset;
+.searchPage__option{
+    margin-right: 16px;
 }
-.searchPage__headerBody  > .search > .search__input > .search__inputSearchIcon{
-    
+.searchPage__result{
+    margin: 40px 0;
+}
+.searchPage__resultsCount{
+    color: #757677;
+    font-size: 14px;
+}
+.searchPage__results{
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 190px;
+    margin-bottom: 100px;
+}
+.title{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(16, 16, 179);
+    padding: 40px 0 0 0;
+}
+.title:hover{
+    text-decoration: underline;
+}
+.link{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 1px 0;
 }

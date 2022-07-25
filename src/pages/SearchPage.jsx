@@ -4,8 +4,15 @@ import { Link } from "react-router-dom";
 import response from "../response";
 import { useStateValue } from "../StateProvider";
 import UseGoogleSearch from "../useGoogleSearch";
+import SearchIcon from "@mui/icons-material/Search";
+import SlideshowIcon from "@mui/icons-material/Slideshow";
+import ImageOutlinedIcon from "@mui/icons-material/ImageOutlined";
+import NewspaperIcon from "@mui/icons-material/Newspaper";
+import FmdGoodOutlinedIcon from "@mui/icons-material/FmdGoodOutlined";
+import MoreVertIcon from "@mui/icons-material/MoreVert";
+
 import "./SearchPage.css";
-const SearchPage = () => {
+function SearchPage() {
   const [{ term }, dispatch] = useStateValue();
   //const { data } = UseGoogleSearch(term);
   const data = response;
@@ -21,16 +28,75 @@ const SearchPage = () => {
           />
         </Link>
         <div className="searchPage__headerBody">
-        <Search hideButtons/>
+          <Search hideButtons />
+          <div className="searchPage__options">
+            <div className="searchPage__optionsLeft">
+              <div className="searchPage__option">
+                <Link to="/all">
+                  <SearchIcon className="searchPage__icon" />
+                  All
+                </Link>
+              </div>
+              <div className="searchPage__option">
+                <Link to="/all">
+                  <SlideshowIcon className="searchPage__icon" />
+                  Videos
+                </Link>
+              </div>
+              <div className="searchPage__option">
+                <Link to="/all">
+                  <ImageOutlinedIcon className="searchPage__icon" />
+                  Images
+                </Link>
+              </div>
+              <div className="searchPage__option">
+                <Link to="/all">
+                  <NewspaperIcon className="searchPage__icon" />
+                  News
+                </Link>
+              </div>
+              <div className="searchPage__option">
+                <Link to="/all">
+                  <FmdGoodOutlinedIcon className="searchPage__icon" />
+                  Maps
+                </Link>
+              </div>
+              <div className="searchPage__option">
+                <Link to="/all">
+                  <MoreVertIcon className="searchPage__icon" />
+                  More
+                </Link>
+              </div>
+            </div>
+            <div className="searchPage__optionsRight">
+              <div className="searchPage__option">
+                <Link>Tools</Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="searchPage__options">
-        
-      </div>
-      </div>
-      
-      <div className="searchPage__results"></div>
+      {term && (
+        <div className="searchPage__results">
+          <p className="searchPage__resultsCount">
+            About {data?.searchInformation.formattedTotalResults} results (
+            {data?.searchInformation.formattedSearchTime} seconds)
+          </p>
+          <p>
+            {data?.items.map((item) => (
+              <div className="searchPage__result">
+                <a href={item.link}className="searchPage__result link">{item.displayLink}</a>
+                <a href={item.link} className="searchPage__result title">
+                  <p className="title">{item.title}</p>
+                </a>
+                <p className="searchPage__result snippet">{item.snippet}</p>
+              </div>
+            ))}
+          </p>
+        </div>
+      )}
     </div>
   );
-};
+}
 
 export default SearchPage;

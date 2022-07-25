@@ -4,7 +4,7 @@ export const initialState = {
 //initialState is what the data layer looks like
 //we want the term to change to whatever is typed in the searchbar
 export const actionTypes = {
-  SET_SEARCH_TERM: "SET_SERACH_TERM",
+  SET_SEARCH_TERM: "SET_SEARCH_TERM",
 };
 //we want the SET_SEARCH_TERM to change to whatever is entered in the searchbar
 

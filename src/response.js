@@ -8,9 +8,9 @@ export default {
   queries: {
     request: [
       {
-        title: "Google Custom Search - null",
-        totalResults: "1440000000",
-        searchTerms: "null",
+        title: "Google Custom Search - tesla",
+        totalResults: "717000000",
+        searchTerms: "tesla",
         count: 10,
         startIndex: 1,
         inputEncoding: "utf8",
@@ -21,9 +21,9 @@ export default {
     ],
     nextPage: [
       {
-        title: "Google Custom Search - null",
-        totalResults: "1440000000",
-        searchTerms: "null",
+        title: "Google Custom Search - tesla",
+        totalResults: "717000000",
+        searchTerms: "tesla",
         count: 10,
         startIndex: 11,
         inputEncoding: "utf8",
@@ -37,27 +37,521 @@ export default {
     title: "Google",
   },
   searchInformation: {
-    searchTime: 0.174352,
-    formattedSearchTime: "0.17",
-    totalResults: "1440000000",
-    formattedTotalResults: "1,440,000,000",
+    searchTime: 0.342746,
+    formattedSearchTime: "0.34",
+    totalResults: "717000000",
+    formattedTotalResults: "717,000,000",
   },
   items: [
     {
       kind: "customsearch#result",
-      title: "Null - Wikipedia",
-      htmlTitle: "\u003cb\u003eNull\u003c/b\u003e - Wikipedia",
-      link: "https://en.wikipedia.org/wiki/Null",
+      title: "Tesla: Electric Cars, Solar & Clean Energy",
+      htmlTitle:
+        "\u003cb\u003eTesla\u003c/b\u003e: Electric Cars, Solar &amp; Clean Energy",
+      link: "https://www.tesla.com/",
+      displayLink: "www.tesla.com",
+      snippet:
+        "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and ...",
+      htmlSnippet:
+        "\u003cb\u003eTesla\u003c/b\u003e is accelerating the world&#39;s transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and&nbsp;...",
+      cacheId: "rHYp-0etoiEJ",
+      formattedUrl: "https://www.tesla.com/",
+      htmlFormattedUrl: "https://www.\u003cb\u003etesla\u003c/b\u003e.com/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDpsvXKwqinX5mGwD2fLhIhBqDReMNERwbQmGWiNc5U1kJy8lLZ1g9T8Jq",
+            width: "311",
+            height: "162",
+          },
+        ],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#cc0000",
+            "og:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/6139697c-9d6a-4579-837e-a9fc5df4a773/bvlatuR/std/1200x628/Model-3-Homepage-Social-LHD",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Electric Cars, Solar & Clean Energy | Tesla",
+            "theme-color": "#000000",
+            "og:site_name": "Tesla",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/6139697c-9d6a-4579-837e-a9fc5df4a773/bvlatuR/std/1200x628/Model-3-Homepage-Social-LHD",
+            handheldfriendly: "true",
+            "twitter:url": "https://www.tesla.com/",
+            "image:alt_text": "Red Model 3",
+            "og:title": "Electric Cars, Solar & Clean Energy | Tesla",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
+            "og:description":
+              "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.",
+            "twitter:creator": "@tesla",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/6139697c-9d6a-4579-837e-a9fc5df4a773/bvlatuR/std/1200x628/Model-3-Homepage-Social-LHD",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/6139697c-9d6a-4579-837e-a9fc5df4a773/bvlatuR/std/1200x628/Model-3-Homepage-Social-LHD",
+            "twitter:site": "@tesla",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport:
+              "width=device-width, minimum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover",
+            "twitter:description":
+              "Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/6139697c-9d6a-4579-837e-a9fc5df4a773/bvlatuR/std/1200x628/Model-3-Homepage-Social-LHD",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tesla Investor Relations",
+      htmlTitle: "\u003cb\u003eTesla\u003c/b\u003e Investor Relations",
+      link: "https://ir.tesla.com/",
+      displayLink: "ir.tesla.com",
+      snippet:
+        "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely ...",
+      htmlSnippet:
+        "\u003cb\u003eTesla&#39;s\u003c/b\u003e mission is to accelerate the world&#39;s transition to sustainable energy. Today, \u003cb\u003eTesla\u003c/b\u003e builds not only all-electric vehicles but also infinitely&nbsp;...",
+      cacheId: "DiUql1nUr6gJ",
+      formattedUrl: "https://ir.tesla.com/",
+      htmlFormattedUrl: "https://ir.\u003cb\u003etesla\u003c/b\u003e.com/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8XSI3bppqdc5ZIqbEklnZLV0wDTvnqhQ7WJYzFuXCXYolcSd_ScywDPg",
+            width: "311",
+            height: "162",
+          },
+        ],
+        metatags: [
+          {
+            "og:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
+            "theme-color": "#000000",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Tesla Investor Relations",
+            "og:site_name": "Tesla Investor Relations",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
+            handheldfriendly: "true",
+            "og:title": "Tesla Investor Relations",
+            "og:description":
+              "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
+            viewport: "width=device-width, initial-scale=1.0",
+            "twitter:description":
+              "Tesla's mission is to accelerate the world's transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
+            mobileoptimized: "width",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/75c14089-3355-4b7f-b882-285d8d3a2caa/bvlatuR/std/1200x628/family_social",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Model 3 | Tesla",
+      htmlTitle: "Model 3 | \u003cb\u003eTesla\u003c/b\u003e",
+      link: "https://www.tesla.com/model3",
+      displayLink: "www.tesla.com",
+      snippet:
+        "Model 3 is designed for electric-powered performance, with quick acceleration, long range and fast charging.",
+      htmlSnippet:
+        "Model 3 is designed for electric-powered performance, with quick acceleration, long range and fast charging.",
+      cacheId: "N4-C0Xr0P-gJ",
+      formattedUrl: "https://www.tesla.com/model3",
+      htmlFormattedUrl:
+        "https://www.\u003cb\u003etesla\u003c/b\u003e.com/model3",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSUJfAMM2tg3jkc-O42gXv0qCKhk944QQTVtP42EFcQz0Zl4X4IrHLSRlAW",
+            width: "311",
+            height: "162",
+          },
+        ],
+        metatags: [
+          {
+            "og:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "twitter:card": "summary",
+            "theme-color": "#000000",
+            "og:site_name": "Tesla",
+            "twitter:url": "https://www.tesla.com/model3",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
+            "og:description":
+              "Model 3 is designed for electric-powered performance, with quick acceleration, long range and fast charging.",
+            "twitter:creator": "@Tesla",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            "twitter:image:alt": "Model 3",
+            "twitter:site": "@tesla",
+            "msapplication-tilecolor": "#cc0000",
+            "og:image:alt": "Model 3",
+            "twitter:title": "Model 3 | Tesla",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+            handheldfriendly: "true",
+            "image:alt_text": "Tesla logo in gray on white background",
+            "og:title": "Model 3 | Tesla",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport:
+              "width=device-width, minimum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover",
+            "twitter:description":
+              "Model 3 is designed for electric-powered performance, with quick acceleration, long range and fast charging.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/model3",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tesla the Band | Official Website | American Made Rock 'n' Roll",
+      htmlTitle:
+        "\u003cb\u003eTesla\u003c/b\u003e the Band | Official Website | American Made Rock &#39;n&#39; Roll",
+      link: "https://teslatheband.com/",
+      displayLink: "teslatheband.com",
+      snippet:
+        "The Official Website of the rock band Tesla, providing recent news, tour dates, music, history, and other ways for fans to interact.",
+      htmlSnippet:
+        "The Official Website of the rock band \u003cb\u003eTesla\u003c/b\u003e, providing recent news, tour dates, music, history, and other ways for fans to interact.",
+      cacheId: "Pw3S9NsLmboJ",
+      formattedUrl: "https://teslatheband.com/",
+      htmlFormattedUrl: "https://\u003cb\u003etesla\u003c/b\u003etheband.com/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQj0Cz3qQotoHoZOO9Jro6e2jrHOWKwrH87bJcUVCT9zc_DyxxFtqt7vzo",
+            width: "310",
+            height: "163",
+          },
+        ],
+        metatags: [
+          {
+            "og:image":
+              "https://teslatheband.com/wp-content/uploads/2018/03/cropped-home-hero-1.jpg",
+            "og:image:width": "3840",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title":
+              "Tesla the Band | Official Website | American Made Rock 'n' Roll",
+            "og:site_name": "TESLA BAND | Official Website",
+            "og:title":
+              "Tesla the Band | Official Website | American Made Rock 'n' Roll",
+            "og:image:height": "2016",
+            "twitter:image:height": "2016",
+            "msapplication-tileimage":
+              "/wp-content/uploads/2018/04/cropped-tesla-logo-1-270x270.png",
+            "og:description":
+              "The Official Website of the rock band Tesla, providing recent news, tour dates, music, history, and other ways for fans to interact.",
+            "twitter:image":
+              "https://teslatheband.com/wp-content/uploads/2018/03/cropped-home-hero-1.jpg",
+            "twitter:image:width": "3840",
+            viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "twitter:description":
+              "The Official Website of the rock band Tesla, providing recent news, tour dates, music, history, and other ways for fans to interact.",
+            "og:locale": "en_US",
+            "og:url": "https://teslatheband.com/",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://teslatheband.com/wp-content/uploads/2018/03/cropped-home-hero-1.jpg",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Model S | Tesla",
+      htmlTitle: "Model S | \u003cb\u003eTesla\u003c/b\u003e",
+      link: "https://www.tesla.com/models",
+      displayLink: "www.tesla.com",
+      snippet:
+        "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
+      htmlSnippet:
+        "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
+      cacheId: "Ei43u66-EP0J",
+      formattedUrl: "https://www.tesla.com/models",
+      htmlFormattedUrl:
+        "https://www.\u003cb\u003etesla\u003c/b\u003e.com/models",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTAXhDfXFYZXJz4pF8qq4zPPWZGhPDGZlzTsKd93BNIxAWfVnrmzibYTI2S",
+            width: "311",
+            height: "162",
+          },
+        ],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#cc0000",
+            "og:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Model S | Tesla",
+            "theme-color": "#000000",
+            "og:site_name": "Tesla",
+            "og:image:url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
+            handheldfriendly: "true",
+            "twitter:url": "https://www.tesla.com/models",
+            "image:alt_text": "Tesla logo in gray on white background",
+            "og:title": "Model S",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
+            "og:description":
+              "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
+            "twitter:creator": "@tesla",
+            "og:image:secure_url":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
+            "twitter:image":
+              "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
+            "twitter:site": "@tesla",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport:
+              "width=device-width, minimum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover",
+            "twitter:description":
+              "Model S is built for speed and range, with beyond ludicrous acceleration, unparalleled performance and a refined design.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/models",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tesla (@Tesla) / Twitter",
+      htmlTitle:
+        "\u003cb\u003eTesla\u003c/b\u003e (@\u003cb\u003eTesla\u003c/b\u003e) / Twitter",
+      link: "https://twitter.com/tesla",
+      displayLink: "twitter.com",
+      snippet:
+        "Tesla. @Tesla. electric cars, giant batteries and solar ... At the end of Q2, over 100k Tesla drivers in North America had access to FSD Beta.",
+      htmlSnippet:
+        "\u003cb\u003eTesla\u003c/b\u003e. @\u003cb\u003eTesla\u003c/b\u003e. electric cars, giant batteries and solar ... At the end of Q2, over 100k \u003cb\u003eTesla\u003c/b\u003e drivers in North America had access to FSD Beta.",
+      cacheId: "1oaDk8U87xAJ",
+      formattedUrl: "https://twitter.com/tesla",
+      htmlFormattedUrl: "https://twitter.com/\u003cb\u003etesla\u003c/b\u003e",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQk7g5E5zgpIoWvQscorzoyQ6Aln03o75SF1yB-pAfKLQKDu1s266B0tw",
+            width: "48",
+            height: "48",
+          },
+        ],
+        metatags: [
+          {
+            "og:image":
+              "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_normal.png",
+            "theme-color": "#FFFFFF",
+            "og:type": "profile",
+            "og:site_name": "Twitter",
+            "al:ios:app_name": "Twitter",
+            "apple-mobile-web-app-title": "Twitter",
+            "og:title": "Tesla (@Tesla) / Twitter",
+            "al:android:package": "com.twitter.android",
+            "al:ios:url": "twitter://user?screen_name=Tesla",
+            "og:description": "electric cars, giant batteries and solar",
+            "al:ios:app_store_id": "333903271",
+            "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+            "al:android:url": "twitter://user?screen_name=Tesla",
+            "fb:app_id": "2231777543",
+            "apple-mobile-web-app-status-bar-style": "white",
+            viewport:
+              "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://twitter.com/Tesla",
+            "al:android:app_name": "Twitter",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_normal.png",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Model Y | Tesla",
+      htmlTitle: "Model Y | \u003cb\u003eTesla\u003c/b\u003e",
+      link: "https://www.tesla.com/modely",
+      displayLink: "www.tesla.com",
+      snippet:
+        "Safety is the most important part of every Tesla. ... Tesla All-Wheel Drive has two ultra-responsive, independent electric motors that digitally control ...",
+      htmlSnippet:
+        "Safety is the most important part of every \u003cb\u003eTesla\u003c/b\u003e. ... \u003cb\u003eTesla\u003c/b\u003e All-Wheel Drive has two ultra-responsive, independent electric motors that digitally control&nbsp;...",
+      cacheId: "vnqzzT4OpNIJ",
+      formattedUrl: "https://www.tesla.com/modely",
+      htmlFormattedUrl:
+        "https://www.\u003cb\u003etesla\u003c/b\u003e.com/modely",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRr4wGcP6Krj_zxrwNGiOZF-75N65xvu1mOSh7dBdUfz04Wb4OGRadgEFQ",
+            width: "143",
+            height: "143",
+          },
+        ],
+        metatags: [
+          {
+            "og:image":
+              "https://www.tesla.com/sites/default/files/modelsx-new/social/model-y-social.png",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#000000",
+            "og:site_name": "Model Y",
+            "twitter:url": "https://www.tesla.com/modely",
+            "msapplication-tileimage":
+              "/themes/custom/tesla_frontend/assets/favicons/mstile-144x144.png",
+            "og:description":
+              "Model Y is a fully electric, mid-size SUV with unparalleled protection and versatile cargo space.",
+            "twitter:creator": "@tesla",
+            "og:image:secure_url":
+              "https://www.tesla.com/sites/default/files/modelsx-new/social/model-y-social.png",
+            "twitter:image":
+              "https://www.tesla.com/sites/default/files/modelsx-new/social/model-y-social.png",
+            "twitter:image:alt": "Model Y",
+            "twitter:site": "@tesla",
+            "msapplication-tilecolor": "#cc0000",
+            "og:type": "website",
+            "og:image:alt": "Model Y",
+            "twitter:title": "Model Y | Tesla",
+            "og:image:url":
+              "https://www.tesla.com/sites/default/files/modelsx-new/social/model-y-social.png",
+            handheldfriendly: "true",
+            "image:alt_text": "Tesla logo in gray on white background",
+            "og:title": "Model Y | Tesla",
+            "apple-mobile-web-app-status-bar-style": "black",
+            viewport:
+              "width=device-width, minimum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover",
+            "twitter:description":
+              "Model Y is a fully electric, mid-size SUV with unparalleled protection and versatile cargo space.",
+            "apple-mobile-web-app-capable": "yes",
+            mobileoptimized: "width",
+            "og:url": "https://www.tesla.com/modely",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://www.tesla.com/sites/default/files/modelsx-new/social/model-y-social.png",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "The Official Tesla Shop | Tesla",
+      htmlTitle:
+        "The Official \u003cb\u003eTesla\u003c/b\u003e Shop | \u003cb\u003eTesla\u003c/b\u003e",
+      link: "https://shop.tesla.com/",
+      displayLink: "shop.tesla.com",
+      snippet:
+        "The official Tesla Shop. Purchase Wall Connectors, chargers, adapters, vehicle accessories and Tesla branded merchandise, collectibles and clothing for ...",
+      htmlSnippet:
+        "The official \u003cb\u003eTesla\u003c/b\u003e Shop. Purchase Wall Connectors, chargers, adapters, vehicle accessories and \u003cb\u003eTesla\u003c/b\u003e branded merchandise, collectibles and clothing for&nbsp;...",
+      cacheId: "ZurlfMHU5CwJ",
+      formattedUrl: "https://shop.tesla.com/",
+      htmlFormattedUrl: "https://shop.\u003cb\u003etesla\u003c/b\u003e.com/",
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQuoiJ3xJsJoBeRQjeCWAVrmoQ7Nq72AzpRjNAa9GJzsoLn5GS_XGn_f0fB",
+            width: "330",
+            height: "153",
+          },
+        ],
+        metatags: [
+          {
+            "msapplication-tilecolor": "#cc0000",
+            "og:image":
+              "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/tesla-shop-marketing-imagery/hero-carousel/wall-connector.jpg",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "The Official Tesla Shop | Tesla",
+            "twitter:site:id": "13298072",
+            "og:title": "The Official Tesla Shop | Tesla",
+            "msapplication-tileimage": "/images/icons/mstile-144x144.png?2",
+            "og:description":
+              "The official Tesla Shop. Purchase Wall Connectors, chargers, adapters, vehicle accessories and Tesla branded merchandise, collectibles and clothing for women, men and children.",
+            "twitter:creator": "@teslamotors",
+            "twitter:image":
+              "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/tesla-shop-marketing-imagery/hero-carousel/wall-connector.jpg",
+            "twitter:site": "@teslamotors",
+            "twitter:creator:id": "13298072",
+            viewport: "width=device-width, initial-scale=1",
+            "twitter:description":
+              "The official Tesla Shop. Purchase Wall Connectors, chargers, adapters, vehicle accessories and Tesla branded merchandise, collectibles and clothing for women, men and children.",
+          },
+        ],
+        cse_image: [
+          {
+            src: "https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/tesla-shop-marketing-imagery/hero-carousel/wall-connector.jpg",
+          },
+        ],
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Tesla, Inc. - Wikipedia",
+      htmlTitle: "\u003cb\u003eTesla\u003c/b\u003e, Inc. - Wikipedia",
+      link: "https://en.wikipedia.org/wiki/Tesla,_Inc.",
       displayLink: "en.wikipedia.org",
       snippet:
-        "Null may refer to: Contents. 1 Science, technology, and mathematics. 1.1 Computing; 1.2 Mathematics; 1.3 Physics. 2 Arts and media; 3 People with the ...",
+        "Tesla was incorporated in July 2003 by Martin Eberhard and Marc Tarpenning as Tesla Motors. The company's name is a tribute to inventor and electrical engineer ...",
       htmlSnippet:
-        "\u003cb\u003eNull\u003c/b\u003e may refer to: Contents. 1 Science, technology, and mathematics. 1.1 Computing; 1.2 Mathematics; 1.3 Physics. 2 Arts and media; 3 People with the&nbsp;...",
-      cacheId: "N5Dv23xCZiAJ",
-      formattedUrl: "https://en.wikipedia.org/wiki/Null",
+        "\u003cb\u003eTesla\u003c/b\u003e was incorporated in July 2003 by Martin Eberhard and Marc Tarpenning as \u003cb\u003eTesla\u003c/b\u003e Motors. The company&#39;s name is a tribute to inventor and electrical engineer&nbsp;...",
+      formattedUrl: "https://en.wikipedia.org/wiki/Tesla,_Inc.",
       htmlFormattedUrl:
-        "https://en.wikipedia.org/wiki/\u003cb\u003eNull\u003c/b\u003e",
+        "https://en.wikipedia.org/wiki/\u003cb\u003eTesla\u003c/b\u003e,_Inc.",
       pagemap: {
+        hcard: [
+          {
+            url_text: "tesla.com",
+            bday: "2003-07-01",
+            fn: "Tesla, Inc.",
+            nickname: "Tesla Motors, Inc. (July 2003 – February 2017)",
+            label: "13101 Tesla Road, Austin, Texas, United States",
+            category: "Public",
+            url: "tesla.com",
+          },
+        ],
+        cse_thumbnail: [
+          {
+            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6CnAAmYUvvSEgKLwkgFZQvwU0r2uFk5-ts4KnFo8guMUZfJgOQrMWdOmC",
+            width: "200",
+            height: "200",
+          },
+        ],
         metatags: [
           {
             referrer: "origin",
@@ -65,475 +559,73 @@ export default {
             "og:type": "website",
             viewport:
               "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
-            "og:title": "Null - Wikipedia",
+            "og:title": "Tesla, Inc. - Wikipedia",
             "format-detection": "telephone=no",
           },
         ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "null - JavaScript | MDN",
-      htmlTitle: "\u003cb\u003enull\u003c/b\u003e - JavaScript | MDN",
-      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null",
-      displayLink: "developer.mozilla.org",
-      snippet:
-        "Jun 23, 2022 ... The value null represents the intentional absence of any object value. It is one of JavaScript's primitive values and is treated as falsy ...",
-      htmlSnippet:
-        "Jun 23, 2022 \u003cb\u003e...\u003c/b\u003e The value \u003cb\u003enull\u003c/b\u003e represents the intentional absence of any object value. It is one of JavaScript&#39;s primitive values and is treated as falsy&nbsp;...",
-      cacheId: "TX4SifLzhVAJ",
-      formattedUrl:
-        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/.../null",
-      htmlFormattedUrl:
-        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/.../\u003cb\u003enull\u003c/b\u003e",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzATynhxJ3xCKxahvxBUUWVIDDr0xDYe9RZ0zbnEA0xRNPGYwaPVEQMK0",
-            width: "300",
-            height: "168",
-          },
-        ],
-        BreadcrumbList: [{}],
-        metatags: [
-          {
-            "og:image":
-              "https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png",
-            "theme-color": "#ffffff",
-            "twitter:card": "summary_large_image",
-            viewport: "width=device-width,initial-scale=1",
-            "og:title": "null - JavaScript | MDN",
-            "og:locale": "en-US",
-            position: "1",
-            "og:url":
-              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null",
-            "og:description":
-              "The value null represents the intentional absence of any object value. It\n  is one of JavaScript's primitive values and\n  is treated as falsy for boolean operations.",
-          },
-        ],
         cse_image: [
           {
-            src: "https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png",
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Johnstone_000178_172617_517894_4578_%2836736411886%29.jpg/200px-Johnstone_000178_172617_517894_4578_%2836736411886%29.jpg",
           },
         ],
       },
     },
     {
       kind: "customsearch#result",
-      title: "Null Definition & Meaning - Merriam-Webster",
+      title: "Tesla Inc (TSLA) Stock Price & News - Google Finance",
       htmlTitle:
-        "\u003cb\u003eNull\u003c/b\u003e Definition &amp; Meaning - Merriam-Webster",
-      link: "https://www.merriam-webster.com/dictionary/null",
-      displayLink: "www.merriam-webster.com",
+        "\u003cb\u003eTesla\u003c/b\u003e Inc (TSLA) Stock Price &amp; News - Google Finance",
+      link: "https://www.google.com/finance/quote/TSLA:NASDAQ?hl=en",
+      displayLink: "www.google.com",
       snippet:
-        "Definition of null · 1 : having no legal or binding force : invalid a null contract · 2 : amounting to nothing : nil the null uselessness of the wireless ...",
+        "Get the latest Tesla Inc (TSLA) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and ...",
       htmlSnippet:
-        "Definition of \u003cb\u003enull\u003c/b\u003e &middot; 1 : having no legal or binding force : invalid a \u003cb\u003enull\u003c/b\u003e contract &middot; 2 : amounting to nothing : nil the \u003cb\u003enull\u003c/b\u003e uselessness of the wireless&nbsp;...",
-      cacheId: "7pVU1R0KV8kJ",
-      formattedUrl: "https://www.merriam-webster.com/dictionary/null",
+        "Get the latest \u003cb\u003eTesla\u003c/b\u003e Inc (TSLA) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and&nbsp;...",
+      formattedUrl: "https://www.google.com/finance/quote/TSLA:NASDAQ?hl=en",
       htmlFormattedUrl:
-        "https://www.merriam-webster.com/dictionary/\u003cb\u003enull\u003c/b\u003e",
+        "https://www.google.com/finance/quote/TSLA:NASDAQ?hl=en",
       pagemap: {
         cse_thumbnail: [
           {
-            src: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSKksTSKYwpW8It403nrjw5t1_a8pLO2PI6ImEG7uvFrNfacgiziPZgG-_O",
-            width: "225",
-            height: "225",
+            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQldTHAz14MiWY-2bpICyONYLUjcoY7hJc8AQj1tmfmhHDQ43UNmSVu_8",
+            width: "311",
+            height: "162",
           },
         ],
         metatags: [
           {
-            "msapplication-tilecolor": "#2b5797",
+            "application-name": "Google Finance",
             "og:image":
-              "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
-            "twitter:title": "Definition of NULL",
-            "twitter:card": "summary",
+              "https://ssl.gstatic.com/finance/favicon/finance_770x402.png",
             "theme-color": "#ffffff",
-            "twitter:url": "https://www.merriam-webster.com/dictionary/null",
-            "og:title": "Definition of NULL",
-            "twitter:aria-text": "Share the Definition of null on Twitter",
-            "og:aria-text": "Post the Definition of null to Facebook",
-            "og:description":
-              "having no legal or binding force : invalid; amounting to nothing : nil; having no value : insignificant… See the full definition",
-            "twitter:image":
-              "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
-            referrer: "unsafe-url",
-            "fb:app_id": "178450008855735",
-            "twitter:site": "@MerriamWebster",
-            viewport: "width=device-width, initial-scale=1.0",
-            "twitter:description":
-              "having no legal or binding force : invalid; amounting to nothing : nil; having no value : insignificant… See the full definition",
-            "og:url": "https://www.merriam-webster.com/dictionary/null",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://merriam-webster.com/assets/mw/static/social-media-share/mw-logo-245x245@1x.png",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "null - Wiktionary",
-      htmlTitle: "\u003cb\u003enull\u003c/b\u003e - Wiktionary",
-      link: "https://en.wiktionary.org/wiki/null",
-      displayLink: "en.wiktionary.org",
-      snippet:
-        "NounEdit · A non-existent or empty value or set of values. · Zero quantity of expressions; nothing. · Something that has no force or meaning. · (computing) The null ...",
-      htmlSnippet:
-        "NounEdit &middot; A non-existent or empty value or set of values. &middot; Zero quantity of expressions; nothing. &middot; Something that has no force or meaning. &middot; (computing) The \u003cb\u003enull\u003c/b\u003e&nbsp;...",
-      cacheId: "7Y5wd3iNhigJ",
-      formattedUrl: "https://en.wiktionary.org/wiki/null",
-      htmlFormattedUrl:
-        "https://en.wiktionary.org/wiki/\u003cb\u003enull\u003c/b\u003e",
-      pagemap: {
-        metatags: [
-          {
-            referrer: "origin",
-            "theme-color": "#eaecf0",
             "og:type": "website",
-            viewport:
-              "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
-            "og:title": "null - Wiktionary",
-            "format-detection": "telephone=no",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "null keyword - C# Reference | Microsoft Docs",
-      htmlTitle:
-        "\u003cb\u003enull\u003c/b\u003e keyword - C# Reference | Microsoft Docs",
-      link: "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null",
-      displayLink: "docs.microsoft.com",
-      snippet:
-        "Sep 15, 2021 ... The null keyword is a literal that represents a null reference, one that does not refer to any object. null is the default value of ...",
-      htmlSnippet:
-        "Sep 15, 2021 \u003cb\u003e...\u003c/b\u003e The \u003cb\u003enull\u003c/b\u003e keyword is a literal that represents a \u003cb\u003enull\u003c/b\u003e reference, one that does not refer to any object. \u003cb\u003enull\u003c/b\u003e is the default value of&nbsp;...",
-      cacheId: "q79F-xJUQoAJ",
-      formattedUrl:
-        "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/.../null",
-      htmlFormattedUrl:
-        "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/.../\u003cb\u003enull\u003c/b\u003e",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQbcqKTpjv9dQtYXo4V7Y4B4dEPzrQzD7y3VdOhDBKB56cyd3vnz5-sUQ",
-            width: "64",
-            height: "64",
-          },
-        ],
-        organization: [
-          {
-            url: "https://www.microsoft.com/",
-          },
-        ],
-        metatags: [
-          {
-            schema: "Conceptual",
-            "og:image":
-              "https://docs.microsoft.com/dotnet/media/logo_csharp.png",
+            "og:image:width": "770",
             "twitter:card": "summary",
-            "ms.technology": "csharp-language-reference",
-            "ms.author": "wiwagn",
-            "ms.topic": "reference",
-            page_type: "conceptual",
-            "ms.devlang": "csharp",
-            document_id: "c3865f5e-5e29-f55c-e247-6b70b5092f99",
-            locale: "en-us",
-            "ms.date": "07/20/2015",
-            recommendations: "false",
-            depot_name: "VS.core-docs",
-            github_feedback_content_git_url:
-              "https://github.com/dotnet/docs/blob/main/docs/csharp/language-reference/keywords/null.md",
-            word_count: "329",
-            "twitter:site": "@docsmsft",
-            updated_at: "2021-09-15 07:34 AM",
-            apiplatform: "dotnet",
-            original_content_git_url:
-              "https://github.com/dotnet/docs/blob/live/docs/csharp/language-reference/keywords/null.md",
-            scope: ".NET",
-            "ms.prod": "dotnet-csharp",
-            pdf_url_template:
-              "https://docs.microsoft.com/pdfstore/en-us/VS.core-docs/{branchName}{pdfName}",
-            "og:type": "website",
-            "og:image:alt": "null keyword - C# Reference | Microsoft Docs",
-            author: "BillWagner",
-            "og:title": "null keyword - C# Reference",
-            "search.mshattr.devlang": "csharp",
-            "color-scheme": "light dark",
-            site_name: "Docs",
-            "ms.assetid": "fecb1c60-6232-4efe-87f7-9a86ba2e9119",
-            viewport: "width=device-width, initial-scale=1.0",
-            breadcrumb_path: "/dotnet/breadcrumb/toc.json",
-            document_version_independent_id:
-              "47be6822-5b68-3a15-6c10-c55d24421d42",
-            cmproducts:
-              "https://authoring-docs-microsoft.poolparty.biz/devrel/7696cda6-0510-47f6-8302-71bb5d2e28cf",
-            "og:url":
-              "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/null",
-            uhfheaderid: "MSDocsHeader-DotNet",
-            toc_rel: "../../toc.json",
-            gitcommit:
-              "https://github.com/dotnet/docs/blob/13219b2f6d4b47b64124523152579485358708dd/docs/csharp/language-reference/keywords/null.md",
-            show_latex: "true",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://docs.microsoft.com/dotnet/media/logo_csharp.png",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "NULL - Manual - PHP",
-      htmlTitle: "NULL - Manual - PHP",
-      link: "https://www.php.net/manual/en/language.types.null.php",
-      displayLink: "www.php.net",
-      snippet:
-        "NULL ¶. The special null value represents a variable with no value. null is the only possible value of type null. A variable is considered to be null if:.",
-      htmlSnippet:
-        "\u003cb\u003eNULL\u003c/b\u003e ¶. The special \u003cb\u003enull\u003c/b\u003e value represents a variable with no value. \u003cb\u003enull\u003c/b\u003e is the only possible value of type \u003cb\u003enull\u003c/b\u003e. A variable is considered to be \u003cb\u003enull\u003c/b\u003e if:.",
-      cacheId: "UdiDMCZEYiMJ",
-      formattedUrl: "https://www.php.net/manual/en/language.types.null.php",
-      htmlFormattedUrl:
-        "https://www.php.net/manual/en/language.types.\u003cb\u003enull\u003c/b\u003e.php",
-      pagemap: {
-        metatags: [
-          {
-            viewport: "width=device-width, initial-scale=1.0",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Model field reference | Django documentation | Django",
-      htmlTitle: "Model field reference | Django documentation | Django",
-      link: "https://docs.djangoproject.com/en/4.0/ref/models/fields/",
-      displayLink: "docs.djangoproject.com",
-      snippet:
-        "Avoid using null on string-based fields such as CharField and TextField . If a string-based field has null=True , that means it has two possible values for ...",
-      htmlSnippet:
-        "Avoid using \u003cb\u003enull\u003c/b\u003e on string-based fields such as CharField and TextField . If a string-based field has \u003cb\u003enull\u003c/b\u003e=True , that means it has two possible values for&nbsp;...",
-      cacheId: "JvFyVZgH8CkJ",
-      formattedUrl: "https://docs.djangoproject.com/en/4.0/ref/models/fields/",
-      htmlFormattedUrl:
-        "https://docs.djangoproject.com/en/4.0/ref/models/fields/",
-      pagemap: {
-        metatags: [
-          {
-            "msapplication-tilecolor": "#113228",
-            copyright: "Django Software Foundation",
-            viewport: "width=device-width, initial-scale=1",
-            "msapplication-tileimage":
-              "https://static.djangoproject.com/img/icon-tile.b01ac0ef9f67.png",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Null Furniture",
-      htmlTitle: "\u003cb\u003eNull\u003c/b\u003e Furniture",
-      link: "https://www.nullfurniture.com/",
-      displayLink: "www.nullfurniture.com",
-      snippet:
-        'We supply living room, occasional, and accent tables. Our business is built around "small scale." Family owned and operated. Our furniture is designed for ...',
-      htmlSnippet:
-        "We supply living room, occasional, and accent tables. Our business is built around &quot;small scale.&quot; Family owned and operated. Our furniture is designed for&nbsp;...",
-      cacheId: "VRMdFE1eWiUJ",
-      formattedUrl: "https://www.nullfurniture.com/",
-      htmlFormattedUrl:
-        "https://www.\u003cb\u003enull\u003c/b\u003efurniture.com/",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI9Nh4bvyd1nUWcV7sAv2GSKYzQ7lcvUmoj-GAtHVyEwgCe9BB_2r3lA",
-            width: "194",
-            height: "90",
-          },
-        ],
-        metatags: [
-          {
-            "application-name": "Null Furniture",
-            "og:image":
-              "https://null-furniture.s3.amazonaws.com/files/1/logo/logo-2018.svg",
-            "og:type": "website",
-            "og:image:width": "194",
-            "og:site_name": "Null Furniture",
-            viewport: "width=device-width, initial-scale=1",
-            "og:title": "Null Furniture",
-            "og:image:height": "90",
-            "og:locale": "en_US",
-            "og:url": "https://www.nullfurniture.com/",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://null-furniture.s3.amazonaws.com/files/1/logo/logo-2018.svg",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "Null safety | Kotlin",
-      htmlTitle: "\u003cb\u003eNull\u003c/b\u003e safety | Kotlin",
-      link: "https://kotlinlang.org/docs/null-safety.html",
-      displayLink: "kotlinlang.org",
-      snippet:
-        "Jul 1, 2010 ... Other issues caused by external Java code. In Kotlin, the type system distinguishes between references that can hold null (nullable references) ...",
-      htmlSnippet:
-        "Jul 1, 2010 \u003cb\u003e...\u003c/b\u003e Other issues caused by external Java code. In Kotlin, the type system distinguishes between references that can hold \u003cb\u003enull\u003c/b\u003e (nullable references)&nbsp;...",
-      cacheId: "pT0EHDoXfIQJ",
-      formattedUrl: "https://kotlinlang.org/docs/null-safety.html",
-      htmlFormattedUrl:
-        "https://kotlinlang.org/docs/\u003cb\u003enull\u003c/b\u003e-safety.html",
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-rUXc3QzIuyoLs-zS_f1oWGLJoFFPd9_4m3cQEOkIYo9XP1id1ZEJhUpj",
-            width: "318",
-            height: "159",
-          },
-        ],
-        metatags: [
-          {
-            image: "https://kotlinlang.org/assets/images/open-graph/docs.png",
-            "og:image":
-              "https://kotlinlang.org/assets/images/open-graph/docs.png",
-            "og:type": "website",
-            "twitter:card": "summary_large_image",
-            "twitter:title": "Null safety | Kotlin",
-            "theme-color": "#19191c",
-            "og:site_name": "Kotlin Help",
-            "build-number": "650",
-            "og:title": "Null safety | Kotlin",
-            "twitter:creator": "@kotlin",
-            "built-on": "2022-07-22T13:51:48.554329",
-            "twitter:image:src":
-              "https://kotlinlang.org/assets/images/open-graph/docs.png",
-            "twitter:site": "@kotlin",
-            viewport: "width=device-width,initial-scale=1,maximum-scale=1",
-            "og:locale": "en_US",
-            "og:url": "https://kotlinlang.org/docs/null-safety.html",
-          },
-        ],
-        cse_image: [
-          {
-            src: "https://kotlinlang.org/assets/images/open-graph/docs.png",
-          },
-        ],
-        listitem: [
-          {
-            item: "Concepts",
-            name: "Concepts",
-            position: "0",
-          },
-          {
-            item: "Null safety",
-            name: "Null safety",
-            position: "1",
-          },
-        ],
-      },
-    },
-    {
-      kind: "customsearch#result",
-      title: "guregu/null: reasonable handling of nullable values - GitHub",
-      htmlTitle: "guregu/null: reasonable handling of nullable values - GitHub",
-      link: "https://github.com/guregu/null",
-      displayLink: "github.com",
-      snippet:
-        'import "gopkg.in/guregu/null.v4". null is a library with reasonable options for dealing with nullable SQL and JSON values. There are two packages: null and ...',
-      htmlSnippet:
-        "import &quot;gopkg.in/guregu/\u003cb\u003enull\u003c/b\u003e.v4&quot;. \u003cb\u003enull\u003c/b\u003e is a library with reasonable options for dealing with nullable SQL and JSON values. There are two packages: \u003cb\u003enull\u003c/b\u003e and&nbsp;...",
-      cacheId: "T7B1tmryJz0J",
-      formattedUrl: "https://github.com/guregu/null",
-      htmlFormattedUrl:
-        "https://github.com/guregu/\u003cb\u003enull\u003c/b\u003e",
-      pagemap: {
-        softwaresourcecode: [
-          {
-            license: "LICENSE",
-            author: "guregu",
-            name: "null",
-            text: 'null import "gopkg.in/guregu/null.v4" null is a library with reasonable options for dealing with nullable SQL and JSON values There are two packages: null and its subpackage zero. Types in...',
-          },
-        ],
-        metatags: [
-          {
-            "octolytics-url": "https://collector.github.com/github/collect",
-            "apple-itunes-app": "app-id=1477376905",
-            "og:image":
-              "https://opengraph.githubassets.com/706b279f806ed77de67a1d04da52ee7d52a5dd1fe991cede3e9576e62d364538/guregu/null",
-            "twitter:card": "summary_large_image",
-            "og:image:width": "1200",
-            "theme-color": "#1e2327",
-            "og:site_name": "GitHub",
-            "hovercard-subject-tag": "repository:23432446",
-            "turbo-body-classes": "logged-out env-production page-responsive",
-            "html-safe-nonce":
-              "23bf47c21e9618a0389759041a53bd07a1c8fb49787885fafa6c70106beb33e0",
-            "expected-hostname": "github.com",
-            "og:description":
-              "reasonable handling of nullable values. Contribute to guregu/null development by creating an account on GitHub.",
-            "browser-errors-url":
-              "https://api.github.com/_private/browser/errors",
-            "octolytics-dimension-user_login": "guregu",
-            hostname: "github.com",
-            "twitter:site": "@github",
-            "browser-stats-url":
-              "https://api.github.com/_private/browser/stats",
-            "visitor-payload":
-              "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI5REQ2OjI5OUM6QTQ1QjYxOjE0QUNGNTY6NjJEQkIyMUEiLCJ2aXNpdG9yX2lkIjoiNTI3NTQ1MDYxOTg1OTgwODc5NCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9",
-            "github-keyboard-shortcuts": "repository",
-            "octolytics-dimension-repository_id": "23432446",
-            "octolytics-dimension-repository_network_root_nwo": "guregu/null",
-            "enabled-features": "IMAGE_METRIC_TRACKING,GEOJSON_AZURE_MAPS",
             "twitter:title":
-              "GitHub - guregu/null: reasonable handling of nullable values",
-            "og:image:alt":
-              "reasonable handling of nullable values. Contribute to guregu/null development by creating an account on GitHub.",
-            "og:type": "object",
-            "optimizely-datafile":
-              '{"groups": [], "environmentKey": "production", "rollouts": [], "typedAudiences": [], "projectId": "16737760170", "variables": [], "featureFlags": [], "experiments": [{"status": "Running", "audienceIds": [], "variations": [{"variables": [], "id": "20667381018", "key": "control"}, {"variables": [], "id": "20680930759", "key": "treatment"}], "id": "20652570897", "key": "project_genesis", "layerId": "20672300363", "trafficAllocation": [{"entityId": "20667381018", "endOfRange": 5000}, {"entityId": "20680930759", "endOfRange": 10000}], "forcedVariations": {"83356e17066d336d1803024138ecb683": "treatment", "18e31c8a9b2271332466133162a4aa0d": "treatment", "10f8ab3fbc5ebe989a36a05f79d48f32": "treatment", "1686089f6d540cd2deeaec60ee43ecf7": "treatment"}}, {"status": "Running", "audienceIds": [], "variations": [{"variables": [], "id": "21427950901", "key": "control"}, {"variables": [], "id": "21429710665", "key": "beginner"}, {"variables": [], "id": "21437291543", "key": "upstart"}], "id": "21445030708", "key": "_259_zer',
-            "og:title":
-              "GitHub - guregu/null: reasonable handling of nullable values",
-            "visitor-hmac":
-              "46cf9fd6c75b0644c3ebd8fd1deb6c9a901fc880af49c91f2db19bf4b47e3702",
-            "og:image:height": "600",
-            "turbo-cache-control": "no-preview",
-            "request-id": "9DD6:299C:A45B61:14ACF56:62DBB21A",
-            "analytics-location":
-              "/\u003cuser-name\u003e/\u003crepo-name\u003e",
-            "color-scheme": "light dark",
-            "octolytics-dimension-repository_is_fork": "false",
-            "go-import":
-              "github.com/guregu/null git https://github.com/guregu/null.git",
-            "browser-optimizely-client-errors-url":
-              "https://api.github.com/_private/browser/optimizely_client/errors",
-            "twitter:image:src":
-              "https://opengraph.githubassets.com/706b279f806ed77de67a1d04da52ee7d52a5dd1fe991cede3e9576e62d364538/guregu/null",
-            "octolytics-dimension-user_id": "131059",
-            "octolytics-dimension-repository_public": "true",
-            "fb:app_id": "1401488693436528",
-            "octolytics-dimension-repository_network_root_id": "23432446",
-            "octolytics-dimension-repository_nwo": "guregu/null",
-            viewport: "width=device-width",
+              "Tesla Inc (TSLA) Stock Price & News - Google Finance",
+            "apple-mobile-web-app-title": "Google Finance",
+            "og:title": "Tesla Inc (TSLA) Stock Price & News - Google Finance",
+            "og:image:height": "402",
+            "og:description":
+              "Get the latest Tesla Inc (TSLA) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and investment decisions.",
+            "twitter:image":
+              "https://ssl.gstatic.com/finance/favicon/finance_496x496.png",
+            referrer: "origin",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "msapplication-tap-highlight": "no",
+            "twitter:site": "@google",
+            viewport:
+              "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui",
+            "apple-mobile-web-app-capable": "yes",
             "twitter:description":
-              "reasonable handling of nullable values. Contribute to guregu/null development by creating an account on GitHub.",
-            "og:url": "https://github.com/guregu/null",
+              "Get the latest Tesla Inc (TSLA) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and investment decisions.",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://www.google.com/finance/quote/TSLA:NASDAQ",
           },
         ],
         cse_image: [
           {
-            src: "https://opengraph.githubassets.com/706b279f806ed77de67a1d04da52ee7d52a5dd1fe991cede3e9576e62d364538/guregu/null",
+            src: "https://ssl.gstatic.com/finance/favicon/finance_770x402.png",
           },
         ],
       },
